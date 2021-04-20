@@ -17,6 +17,9 @@ const companyDepartments = combineReducers({
 //now with store our company can start working
 //the store represent the entire redux application
 
+//since we combined the reducers to one -->
+//this is like sending a copy of the action to each department
+
 const store = createStore(companyDepartments);
 
 //now that our company is working, actions can be dispatched using this:
