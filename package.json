@@ -1,0 +1,24 @@
+{
+  "name": "simple-core-redux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node reduxApp.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NataEn/simple-core-redux.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NataEn/simple-core-redux/issues"
+  },
+  "homepage": "https://github.com/NataEn/simple-core-redux#readme",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.5.1"
+  }
+}
